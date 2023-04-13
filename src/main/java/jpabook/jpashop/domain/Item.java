@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Item {
+public class  Item {
 
     @Id @GeneratedValue
     @Column(name = "ITEM_ID")
@@ -15,6 +15,7 @@ public class Item {
     private String name;
     private int price;
     private int stockQuantity;
+
 
     public Long getId() {
         return id;
